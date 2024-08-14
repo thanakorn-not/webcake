@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~lucide-static/font/Lucide.css';
+
+@font-face{
+    font-family: 'Kanit';
+    src: url('/webcake/assets/css/font/Kanit-Light.ttf');
+}
+
+body{
+    font-family: "Kanit", sans-serif;
+}
+.full-screen{
+    height: 100vh;
+}
+
+.hero{
+    background-image: url('/webcake/assets/css/img/strawberry-cake.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
